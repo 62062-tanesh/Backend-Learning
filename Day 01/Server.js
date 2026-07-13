@@ -1,8 +1,7 @@
-const express = require('express')
-const app = express()
+const app = require ("./src/app")
 
-app.get("/", (req,res)=>{})
 
-app.get("/about", (req,res)=>{})
 
-app.listen(3000)
+app.listen(3000,()=>{
+    console.log("Server is Running on Port 3000")
+})
